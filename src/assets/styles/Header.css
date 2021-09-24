@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "googleregular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Regular"),
+    url("../../fonts/ProductSans-Regular.woff") format("woff");
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid whitesmoke;
+  background-color: white;
+  z-index: 999;
+}
+
+input {
+  font-family: "googleregular", Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif !important;
+  font-weight: 200 !important;
+  letter-spacing: 0.5px !important;
+  font-size: 16px !important;
+}
+
+.header_left {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.header_left > a {
+  object-fit: contain;
+  height: 40px;
+  width: 109px;
+  margin-left: 5px;
+}
+
+.header_middle {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+  background-color: #f1f3f4;
+  border-radius: 8px;
+  margin: 8px auto 6px 65px;
+}
+
+.header_middle > .MuiSvgIcon-root {
+  color: grey;
+  padding: 8px;
+  margin: 3px;
+}
+
+.header_middle > input {
+  border: none;
+  width: 100%;
+  padding: 8px;
+  background-color: transparent;
+  outline: none;
+  font-size: medium;
+}
+
+.header_middle:focus-within {
+  background-color: white;
+  box-shadow: 0 0 4px grey;
+}
+
+.header_right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+}
+
+.header_right > .avatar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

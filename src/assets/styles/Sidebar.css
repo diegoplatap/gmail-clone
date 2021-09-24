@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "googlesansmedium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Medium Regular"),
+    url("../../fonts/ProductSans-Medium.woff") format("woff");
+}
+.sidebar {
+  flex: 0.3;
+  max-width: 235px;
+  padding-right: 20px;
+}
+
+.sidebar_compose {
+  font-family: "googlesansmedium" !important;
+  font-weight: 500 !important;
+  margin-top: 15px !important;
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+  text-transform: capitalize !important;
+  color: #3c4043;
+  padding: 8px !important;
+  padding-right: 25px !important;
+  border-radius: 24px !important;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  letter-spacing: 0.7px !important;
+  align-items: center;
+  transition: box-shadow 0.08s linear,
+    min-width 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.compose_plusIcon {
+  width: 32px;
+  margin-right: 2px;
+  padding-right: 0.75rem;
+  padding-left: 0.3rem;
+}
+
+.sidebar_compose:hover {
+  box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+  background-color: #fafafb;
+}
+
+.sidebar_footer {
+  display: flex;
+  justify-content: center;
+}

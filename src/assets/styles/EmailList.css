@@ -1,0 +1,37 @@
+.emailList {
+  flex: 1;
+  /* overflow-y: scroll; */
+}
+
+.emailList_settings {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  /* z-index: 999; */
+  padding-right: 10px;
+  margin-left: 5px;
+}
+
+.emailList_settingsLeft {
+  display: flex;
+  align-items: center;
+}
+
+.emailList_sections {
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+}
+
+.emailList_settingsLeft > .MuiButtonBase-root .MuiSvgIcon-root {
+  font-size: 1.3rem;
+}
+
+.svg-inline--fa.fa-w-16 {
+  font-size: 0.923rem;
+}
+
+.emailList_List {
+  padding-bottom: 20%;
+}

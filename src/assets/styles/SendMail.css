@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "googlesansmedium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Medium Regular"),
+    url("../../fonts/ProductSans-Medium.woff") format("woff");
+}
+.sendmail {
+  position: absolute;
+  bottom: 0px;
+  right: 55px;
+  background-color: white;
+  width: 40%;
+  height: 65%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 10px 1px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%),
+    0 5px 5px -3px rgb(0 0 0 / 20%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.sendMail_minimize {
+  margin-left: 400px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.sendMail_maximize {
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.sendmail_header {
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #404040;
+  color: rgb(192, 190, 190);
+  height: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.sendMail_send {
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif !important;
+  font-size: 0.875rem !important;
+  background-color: #1a73e8 !important;
+  text-transform: capitalize !important;
+  margin: 15px !important;
+  padding-top: 5px !important;
+  padding-right: 15px !important;
+  padding-left: 18px !important;
+  padding-bottom: 5px !important;
+  align-items: center;
+}
+
+.sendMail_close {
+  font-size: 1rem !important;
+  cursor: pointer;
+}
+
+.sendMail_message {
+  font-family: Arial;
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 15px;
+  resize: none;
+}
+.sendMail_error {
+  background-color: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
+}
+
+.sendmail_header > h3 {
+  padding-left: 5px;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+}
+
+.sendMail_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .sendMail_optionsLeft {
+  margin-right: 100px;
+} */
+
+.sendMail_optionsLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.sendMail_optionsLeft > .MuiButtonBase-root {
+  font-size: 1rem;
+}
+
+.sendMail_optionsLeft > .MuiButtonBase-root .MuiSvgIcon-root {
+  font-size: 1.3rem;
+}
+
+.sendMail_optionsRight > .MuiButtonBase-root .MuiSvgIcon-root {
+  font-size: 1.3rem;
+}
+
+.sendmail > form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.sendmail > form > input {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}

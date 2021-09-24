@@ -1,0 +1,81 @@
+.mail {
+  flex: 1;
+  /* background-color: whitesmoke; */
+}
+
+.mail_tools {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1.5px solid whitesmoke;
+}
+
+.mail_body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* padding: 5px; */
+  height: 100vh;
+}
+
+.mail_bodyHeader {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid whitesmoke; */
+  padding: 5px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.mail_important {
+  color: #e8ab02 !important;
+  opacity: 0.54;
+  margin-top: 5px !important;
+}
+
+.mail_bodyHeader > h2 {
+  font-weight: 400;
+  margin-right: -2px;
+}
+
+.mail_bodyHeader > p {
+  padding-top: 4px;
+}
+
+.mail_time {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  padding-right: 25px;
+  right: 0;
+  font-size: 13px;
+  color: gray;
+}
+
+.mail_message > p {
+  padding: 20px;
+  margin-right: 50px;
+  padding-left: 60px;
+  overflow-wrap: break-word;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.user_infoEmail {
+  margin-left: 15px;
+}
+
+.mail_important:hover {
+  color: #e8ab02;
+  opacity: inherit;
+}
+
+.mail_toolsleft > .MuiButtonBase-root .MuiSvgIcon-root {
+  font-size: 1.3rem;
+}
